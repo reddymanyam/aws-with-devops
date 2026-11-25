@@ -1,0 +1,28 @@
+1. git init   // For initialising the git commands
+2. git clone <repo -url>  // for cloning the repository from the url (eg: git clone https://github.com/reddymanyam/airbnb.git)
+
+3. git status  // It will show changing status (like the files that are changed)
+4. git add <file> // Add changes to stagging (eg: git add home.jsx)
+5. git commit -m "commit message" // Commit changes with a message (eg: git commit -m "updation of navbar in home")
+6. git log // For viewing the commit history
+
+7. git branch // List branches
+8. git branch <branch-name> // creating the new branch (eg: git branch reddy-dev)
+9. git checkout <branch-name> // switch to a branch (eg: git checkout reddy-dev)
+10. git merge <branch-name> // Merge Changes from a branch (eg: git merge reddy-dev, then if will merge reddy-dev to the current branch)
+11. git branch -d <branch-name> // This will delete branch (eg: git branch -d reddy-dev)
+
+12. git remote // List remotes 
+13. git remote add <name> <url> // Add a remote
+14. git push <remote> <branch> // Push changes to a remote
+15. git pull <remote> <branch> // Pull changes from a branch
+
+13. git fetch // It will fetch the changes, but not added in the repo (It will not merge the chnages)
+14. git pull // It will fetch and merge the changes
+15. git reset --soft HEAD~1 //git command for the undo the commit and bring the files back , before it is pushed
+15. git reset --hard HEAD // Discard Changes (we will loose all the data of the stagging files)
+16. git revert <commit-hash> //Revert changes in the commit
+
+17. git remote set-url origin https://github.com/reddymanyam/AWS-with-DevOps.git     //change the url link to another repo ( change one repo to another repo)
+18. git remote -v (verify which repo it is linked with)
+19. 

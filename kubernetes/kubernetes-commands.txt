@@ -1,0 +1,11 @@
+// Get all the running pods
+---> kubectl get pods
+
+// Get all the running pods with namespaces
+---> kubectl get --all-namespaces       (shortcut)---> kubectl get pods -A 
+
+// Getting the count of all pods
+---> kubectl get pods --field-selector=status.phase=Running --no-headers | wc -1
+
+// Getting the count of all pods with namespaces
+---> kubectl get pods --all-namespaces --field-selector=status.phase=Running --no-headers | wc -1
