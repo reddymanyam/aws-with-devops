@@ -124,12 +124,14 @@
 
 
 // find and grep are powerful tools in shell scripting for searching files and patterns. By mastering these commands, you can efficiently locate files, filter content, and automate tasks in your scripts.
+
 // here are some additional examples of using find and grep together:
-# 1. Find all .log files and search for the string "ERROR" within them
+
+// 1. Find all .log files and search for the string "ERROR" within them
 # find /var/log -type f -name "*.log" -exec grep -H "ERROR" {} \;
-# 2. Find all .txt files and search for the string "login" within them
+// 2. Find all .txt files and search for the string "login" within them
 # find /home/user/documents -type f -name "*.txt" -exec grep -H "login" {} \;
-# 3. Find all .conf files and search for the string "server" within them, ignoring case
+// 3. Find all .conf files and search for the string "server" within them, ignoring case
 # find /etc -type f -name "*.conf" -exec grep -i "server" {} \; 
 
 
